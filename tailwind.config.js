@@ -15,7 +15,8 @@ module.exports = {
         lightgray:'#8f8f8f',
         orange:'#fa8443',
         blue: '#347f90',
-        primary:'#42a7c3'
+        primary: '#42a7c3',
+        darkorange:'#fe5a00'
       },
       lineHeight: {
         'xl':'50px',

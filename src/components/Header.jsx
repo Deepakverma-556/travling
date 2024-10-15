@@ -37,7 +37,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <button className="bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white">
+          <button className="bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all duration-200 hover:bg-darkorange">
             Sign Up
           </button>
         </div>

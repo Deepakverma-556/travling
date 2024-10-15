@@ -42,7 +42,7 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <div className="container max-w-6xl mx-auto px-3 pt-5">
+      <div className="container max-w-6xl mx-auto px-3 py-5">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-1/2 px-3">
             <div>

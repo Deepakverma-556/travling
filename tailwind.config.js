@@ -16,14 +16,15 @@ module.exports = {
         orange:'#fa8443',
         blue: '#347f90',
         primary: '#42a7c3',
-        darkorange:'#fe5a00'
+        darkorange: '#fe5a00',
+        gray:'#f0f0f0'
       },
       lineHeight: {
         'xl':'50px',
         '2xl':'69px',
       },
       maxWidth: {
-        sm:'136px',
+        sm: '136px',
       }
     },
   },

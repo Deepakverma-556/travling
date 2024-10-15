@@ -14,11 +14,15 @@ module.exports = {
         darkgray:'#333333',
         lightgray:'#8f8f8f',
         orange:'#fa8443',
-        blue:'#347f90',
+        blue: '#347f90',
+        primary:'#42a7c3'
       },
       lineHeight: {
-        'leading-xl':'50px',
-        'leading-2xl':'69px',
+        'xl':'50px',
+        '2xl':'69px',
+      },
+      maxWidth: {
+        sm:'136px',
       }
     },
   },

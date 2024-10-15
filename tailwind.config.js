@@ -11,13 +11,13 @@ module.exports = {
         'text-5xl': '56px',
       },
       colors: {
-        darkgray:'#333333',
-        lightgray:'#8f8f8f',
+        darkgrey:'#333333',
+        lightgrey:'#8f8f8f',
         orange:'#fa8443',
         blue: '#347f90',
         primary: '#42a7c3',
         darkorange: '#fe5a00',
-        gray:'#f0f0f0'
+        grey:'#f0f0f0'
       },
       lineHeight: {
         'xl':'50px',

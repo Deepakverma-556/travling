@@ -16,14 +16,14 @@ const Header = () => {
           </a>
           <ul className="flex items-center gap-20">
             <li>
-              <a href="#" className="ff-lato text-base leading-6 text-darkgray">
+              <a href="#" className="ff-lato text-base leading-6 text-darkgrey flex transition-all duration-200 hover:scale-105">
                 Product
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="ff-lato text-base leading-6 text-darkgray text-nowrap"
+                className="ff-lato text-base leading-6 text-darkgrey text-nowrap flex transition-all duration-200 hover:scale-105"
               >
                 Contact Us
               </a>
@@ -31,7 +31,7 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                className="ff-lato text-base leading-6 text-darkgray text-nowrap"
+                className="ff-lato text-base leading-6 text-darkgrey text-nowrap flex transition-all duration-200 hover:scale-105"
               >
                 About Us
               </a>
@@ -46,10 +46,10 @@ const Header = () => {
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-1/2 px-3">
             <div>
-              <h2 className="ff-poppins font-bold text-5xl leading-2xl text-darkgray">
+              <h2 className="ff-poppins font-bold text-5xl leading-2xl text-darkgrey">
                 Start your journey by one click, explore beautiful world!
               </h2>
-              <p className="ff-poppins text-base leading-7 text-darkgray text-opacity-80 pt-4 pb-8">
+              <p className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8">
                 Plan and book your perfect trip with expert advice, travel tips,
                 destination information and inspiration from us!
                           </p>

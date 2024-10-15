@@ -8,15 +8,15 @@ const Section2 = () => {
   return (
     <section className="flex items-center py-24">
       <div className="max-w-6xl mx-auto px-3 w-full">
-        <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgray">
+        <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgrey">
           Popular Destinations
         </h2>
-        <p className="ff-lato text-base leading-6 text-darkgray opacity-80 pt-2 pb-11">
+        <p className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11">
           Vacations to make your experience enjoyable in Indonesia!
         </p>
         <div className="flex flex-wrap -mx-3">
           <div className="w-1/4 px-3">
-            <div className="p-4 border border-white rounded-2xl bg-gray">
+            <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg1} alt="card-img-1"/>
               </div>
@@ -38,11 +38,11 @@ const Section2 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgray ">
+                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgrey ">
                     Manggarai Barat
                   </p>
                 </div>
-                <p className="ff-lato font-bold text-base leading-6 text-darkgray pt-2 pb-1">
+                <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
                   Flores Road Trip 3D2N
                 </p>
                 <p className="ff-lato text-sm leading-5 text-gray-600">
@@ -53,7 +53,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-1/4 px-3">
-            <div className="p-4 border border-white rounded-2xl bg-gray">
+            <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg2} alt="card-img-2"/>
               </div>
@@ -75,11 +75,11 @@ const Section2 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgray ">
+                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgrey ">
                     Bogor
                   </p>
                 </div>
-                <p className="ff-lato font-bold text-base leading-6 text-darkgray pt-2 pb-1">
+                <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
                   Forrester Glamping Co Bogor
                 </p>
                 <p className="ff-lato text-sm leading-5 text-gray-600">
@@ -90,7 +90,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-1/4 px-3">
-            <div className="p-4 border border-white rounded-2xl bg-gray">
+            <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg3} alt="card-img-3"/>
               </div>
@@ -112,11 +112,11 @@ const Section2 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgray ">
+                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgrey ">
                     Jakarta
                   </p>
                 </div>
-                <p className="ff-lato font-bold text-base leading-6 text-darkgray pt-2 pb-1">
+                <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
                   Paket Tiket pesawat Jakarta Bali
                 </p>
                 <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">Rp 605.000 <span className="font-normal text-text-xsm leading-4 text-blue">/person</span></p>
@@ -124,7 +124,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-1/4 px-3">
-            <div className="p-4 border border-white rounded-2xl bg-gray">
+            <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg4} alt="card-img-4"/>
               </div>
@@ -146,11 +146,11 @@ const Section2 = () => {
                       />
                     </svg>
                   </div>
-                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgray ">
+                  <p className="ff-lato text-nowrap text-text-2xsm leading-4 text-lightgrey ">
                     Kota Semarang
                   </p>
                 </div>
-                <p className="ff-lato font-bold text-base leading-6 text-darkgray pt-2 pb-1">
+                <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
                   Desa Wisata Kandri
                 </p>
                 <p className="ff-lato text-sm leading-5 text-gray-600">

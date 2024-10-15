@@ -4,10 +4,10 @@ import app from "../assets/images/app-store.webp";
 
 export const Footer = () => {
   return (
-    <footer className="flex items-center bg-primary pt-24 pb-12">
+    <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12">
       <div className="container max-w-6xl px-3 mx-auto w-full">
         <div className="p-12 w-full flex flex-wrap justify-between items-center backdrop-filter backdrop-blur-3xl border border-white rounded-xl">
-          <div className="">
+          <div className="max-md:w-full">
             <p className="ff-lato text-xl leading-7 text-white">
               Prepare yourself to be a part of exploration of
             </p>
@@ -15,7 +15,7 @@ export const Footer = () => {
               The Beauty of Indonesia
             </h2>
           </div>
-          <div className="flex flex-col gap-3">
+          <div className="flex max-[500px]:flex-col md:flex-col gap-3 max-md:w-full max-md:pt-4">
             <button className="bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-16 rounded-lg text-white transition-all duration-200 hover:bg-darkorange">
               Sign In
             </button>

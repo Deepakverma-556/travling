@@ -6,7 +6,7 @@ import cardimg4 from "../assets/images/card-img-4.webp";
 
 const Section2 = () => {
   return (
-    <section className="flex items-center py-24">
+    <section className="flex items-center py-24 max-md:py-16 max-sm:py-0">
       <div className="max-w-6xl mx-auto px-3 w-full">
         <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgrey">
           Popular Destinations
@@ -15,7 +15,7 @@ const Section2 = () => {
           Vacations to make your experience enjoyable in Indonesia!
         </p>
         <div className="flex flex-wrap -mx-3">
-          <div className="w-1/4 px-3">
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3">
             <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg1} alt="card-img-1"/>
@@ -52,7 +52,7 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/4 px-3">
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-sm:pt-5">
             <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg2} alt="card-img-2"/>
@@ -89,7 +89,7 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/4 px-3">
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-md:pt-5">
             <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg3} alt="card-img-3"/>
@@ -123,7 +123,7 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/4 px-3">
+          <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-lg:pt-5">
             <div className="p-4 border border-white rounded-2xl bg-grey">
               <div>
                 <img src={cardimg4} alt="card-img-4"/>

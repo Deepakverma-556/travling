@@ -16,13 +16,13 @@ export const Footer = () => {
             </h2>
           </div>
           <div className="flex max-[500px]:flex-col md:flex-col gap-3 max-md:w-full max-md:pt-4 max-md:flex max-md:justify-center">
-            <button class="relative overflow-hidden py-3 px-16 border text-nowrap rounded-lg bg-white border-white text-black transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:bg-black before:duration-300 before:ease-out hover:text-white hover:border-black hover:before:h-full hover:before:w-full">
-              <span class="relative z-10 text-nowrap ff-lato font-semibold text-base leading-6">
+            <button className="relative overflow-hidden py-3 px-16 border text-nowrap rounded-lg bg-white border-white text-black transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:bg-black before:duration-300 before:ease-out hover:text-white hover:border-black hover:before:h-full hover:before:w-full">
+              <span className="relative z-10 text-nowrap ff-lato font-semibold text-base leading-6">
                 Sign In
               </span>
             </button>
-            <button class="relative overflow-hidden py-3 px-16 border text-nowrap rounded-lg border-white text-white transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:bg-black before:duration-300 before:ease-out hover:text-white hover:border-black hover:before:h-full hover:before:w-full">
-              <span class="relative z-10 text-nowrap ff-lato font-semibold text-base leading-6">
+            <button className="relative overflow-hidden py-3 px-16 border text-nowrap rounded-lg border-white text-white transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:bg-black before:duration-300 before:ease-out hover:text-white hover:border-black hover:before:h-full hover:before:w-full">
+              <span className="relative z-10 text-nowrap ff-lato font-semibold text-base leading-6">
                 Sign Up
               </span>
             </button>
@@ -105,7 +105,7 @@ export const Footer = () => {
                 width="16"
                 height="16"
                 fill="white"
-                class="bi bi-instagram"
+                className="bi bi-instagram"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -124,7 +124,7 @@ export const Footer = () => {
                 width="16"
                 height="16"
                 fill="white"
-                class="bi bi-twitter"
+                className="bi bi-twitter"
                 viewBox="0 0 16 16"
               >
                 <path

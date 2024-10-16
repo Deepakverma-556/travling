@@ -76,7 +76,7 @@ const Section3 = () => {
                     <path
                       d="M6.80711 27.681C6.68218 27.681 6.55718 27.6334 6.46187 27.538C6.27118 27.3473 6.27118 27.0381 6.46187 26.8475L10.7259 22.5834C10.9166 22.3927 11.2258 22.3927 11.4164 22.5834C11.6071 22.7741 11.6071 23.0833 11.4164 23.2739L7.15236 27.538C7.05705 27.6333 6.93211 27.681 6.80711 27.681Z"
                       fill="#42A8C3"
-                      fill-opacity="0.92"
+                      fillOpacity="0.92"
                     />
                   </svg>
                 </div>
@@ -98,7 +98,7 @@ const Section3 = () => {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g clip-path="url(#clip0_12_4971)">
+                    <g clipPath="url(#clip0_12_4971)">
                       <path d="M8.83336 13H0V40H8.83336V13Z" fill="#E8EAEA" />
                       <path d="M40 13H31.1666V40H40V13Z" fill="#E8EAEA" />
                       <path
@@ -278,9 +278,9 @@ const Section3 = () => {
                   <path
                     d="M1 13L7 7L1 1"
                     stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </a>

@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import googleimg from "../assets/images/google-play.webp";
 import appimg from "../assets/images/app-store.webp";
 import hero from "../assets/images/hero-img.webp";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
     <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 flex-col">
       <div className="max-w-6xl mx-auto px-3 pb-5 w-full">
@@ -14,7 +15,7 @@ const Header = () => {
           >
             Travling!
           </a>
-          <ul className="flex items-center gap-20 max-md:gap-14 max-sm:gap-8">
+          <ul className="flex items-center gap-20 max-md:gap-14 max-sm:gap-8 max-md:hidden">
             <li>
               <a
                 href="#"
@@ -40,9 +41,12 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <button className="relative bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all overflow-hidden duration-200 before:top-0 before:left-0 before:bottom-0 before:right-0 before:m-auto before:w-0 before:bg-black before:h-0 before:absolute before:ease-out before:duration-300 hover:before:w-full hover:before:h-full ">
+          <button className="relative bg-orange max-md:hidden text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all overflow-hidden duration-200 before:top-0 before:left-0 before:bottom-0 before:right-0 before:m-auto before:w-0 before:bg-black before:h-0 before:absolute before:ease-out before:duration-300 hover:before:w-full hover:before:h-full ">
             <span className="relative z-10">Sign Up</span>
           </button>
+          <div className="md:hidden text-2xl font-bold" onClick={() => setOpen(!open)}>
+            {open ? "✕" : "☰"}
+          </div>
         </div>
       </div>
       <div className="container max-w-6xl mx-auto px-3 py-5">
@@ -58,7 +62,11 @@ const Header = () => {
               </p>
               <div className="flex items-center gap-6">
                 <img src={googleimg} alt="google-play" className="max-w-sm" />
-                <img src={appimg} alt="app-store" className="max-w-sm w-full h-10" />
+                <img
+                  src={appimg}
+                  alt="app-store"
+                  className="max-w-sm w-full h-10"
+                />
               </div>
             </div>
           </div>

@@ -56,11 +56,10 @@ const Header = () => {
         </div>
       </div>
       <div
-        onClick={() => setOpen(false)}
-        className={`w-full h-full bg-primary transition-all duration-300 md:-top-full z-10 fixed flex justify-center items-center ${
+        className={`w-full h-full bg-primary transition-all duration-500 md:-top-full z-10 fixed flex justify-center items-center ${
           open
-            ? "top-0 transition-all duration-300"
-            : "-top-full transition-all duration-300"
+            ? "top-0"
+            : "-top-full"
         }`}
       >
         <ul className="flex flex-col justify-center items-center gap-8">

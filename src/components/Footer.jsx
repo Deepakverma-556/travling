@@ -6,16 +6,16 @@ export const Footer = () => {
   return (
     <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12">
       <div className="container max-w-6xl px-3 mx-auto w-full">
-        <div className="p-12 w-full flex flex-wrap justify-between items-center backdrop-filter backdrop-blur-3xl border border-white rounded-xl">
-          <div className="max-md:w-full">
+        <div className="p-12 max-lg:p-10 max-md:p-8 max-sm:p-6 w-full flex flex-wrap justify-between items-center backdrop-filter backdrop-blur-3xl border border-white rounded-xl">
+          <div className="max-md:w-full max-md:text-center">
             <p className="ff-lato text-xl leading-7 text-white">
               Prepare yourself to be a part of exploration of
             </p>
-            <h2 className="ff-lato text-4xl leading-xl font-bold text-white">
+            <h2 className="ff-lato text-4xl leading-xl max-sm:leading-9 font-bold text-white">
               The Beauty of Indonesia
             </h2>
           </div>
-          <div className="flex max-[500px]:flex-col md:flex-col gap-3 max-md:w-full max-md:pt-4">
+          <div className="flex max-[500px]:flex-col md:flex-col gap-3 max-md:w-full max-md:pt-4 max-md:flex max-md:justify-center">
             <button class="relative overflow-hidden py-3 px-16 border text-nowrap rounded-lg bg-white border-white text-black transition-all duration-300 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:bg-black before:duration-300 before:ease-out hover:text-white hover:border-black hover:before:h-full hover:before:w-full">
               <span class="relative z-10 text-nowrap ff-lato font-semibold text-base leading-6">
                 Sign In
@@ -28,15 +28,15 @@ export const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-between w-full flex-wrap pt-24 pb-5">
-          <div>
+        <div className="flex items-center justify-between w-full flex-wrap pt-24 max-lg:pt-16 max-md:pt-10 max-sm:pt-6 pb-5">
+          <div className="max-md:w-full max-md:text-center">
             <a
               href="#"
               className="font-bold text-4xl leading-xl text-white ff-roboto"
             >
               Travling!
             </a>
-            <ul className="flex items-center gap-10 pt-3">
+            <ul className="flex items-center gap-10 max-md:gap-6 max-sm:gap-3 pt-3 max-md:pt-0 max-md:justify-center">
               <li>
                 <a
                   href="#"
@@ -71,11 +71,11 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div>
+          <div className="max-md:w-full max-md:text-center max-md:pt-4">
             <p className="ff-lato font-bold text-xl leading-7 text-white pb-2">
               Get the App
             </p>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 max-md:justify-center">
               <a href="#">
                 <img src={google} alt="google-play" className="max-w-sm" />
               </a>

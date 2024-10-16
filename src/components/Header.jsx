@@ -6,7 +6,7 @@ import hero from "../assets/images/hero-img.webp";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 flex-col bg-gradient-to-b from-[#E2F6FC] to-white bg-opacity-80">
+    <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 max-md:pb-5 max-sm:pb-12 flex-col bg-gradient-to-b from-[#E2F6FC] to-white bg-opacity-80">
       <div className="max-w-6xl mx-auto px-3 pb-5 w-full">
         <div className="w-full flex items-center justify-between">
           <a
@@ -95,7 +95,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="container max-w-6xl mx-auto px-3 py-5">
+      <div className="container max-w-6xl mx-auto px-3 pt-5">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
@@ -120,9 +120,9 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-1/2 px-3">
+          <div className="w-full lg:w-1/2 px-3 max-lg:pt-6">
             <div>
-              <img src={hero} alt="hero-img" />
+              <img src={hero} alt="hero-img" className="max-w-xl w-full mx-auto"/>
             </div>
           </div>
         </div>

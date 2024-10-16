@@ -1,14 +1,18 @@
-import React from 'react'
-import hero from "../assets/images/sec-3-hero.webp"
+import React from "react";
+import hero from "../assets/images/sec-3-hero.webp";
 
 const Section3 = () => {
   return (
-    <section className="flex items-center py-24 max-lg:py-16 max-sm:py-12">
+    <section className="flex items-center py-24 max-lg:pt-0 max-md:py-16 max-sm:py-12">
       <div className="container px-3 max-w-6xl mx-auto w-full">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <img src={hero} alt="hero-img" />
+              <img
+                src={hero}
+                alt="hero-img"
+                className="max-w-xl w-full mx-auto"
+              />
             </div>
           </div>
           <div className="w-full lg:w-1/2 px-3">
@@ -291,6 +295,6 @@ const Section3 = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Section3
+export default Section3;

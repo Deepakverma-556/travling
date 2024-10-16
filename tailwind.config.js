@@ -8,7 +8,7 @@ module.exports = {
       fontSize: {
         'text-2xsm': '10px',
         'text-xsm': '12px',
-        'text-5xl': '56px',
+        'text-xxl': '56px',
       },
       colors: {
         darkgrey:'#333333',

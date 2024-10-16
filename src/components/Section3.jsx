@@ -16,7 +16,7 @@ const Section3 = () => {
               <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgrey">
                 Why Choose Us
               </h2>
-              <p className="ff-lato text-xl leading-7 text-gray-900 pt-2 pb-10">
+              <p className="ff-lato text-xl leading-7 text-gray-900 pt-2 pb-10 max-md:pb-6 max-sm:pb-2">
                 Enjoy different experiences in every place you visit and
                 discover new and affordable adventures of course.
               </p>
@@ -89,7 +89,7 @@ const Section3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F] my-6">
+              <div className="flex items-center gap-4 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F] max-sm:my-3 my-6">
                 <div>
                   <svg
                     width="40"

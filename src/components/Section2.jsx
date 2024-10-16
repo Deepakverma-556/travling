@@ -8,10 +8,10 @@ const Section2 = () => {
   return (
     <section className="flex items-center py-24 max-md:py-16 max-sm:py-0">
       <div className="max-w-6xl mx-auto px-3 w-full">
-        <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgrey">
+        <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgrey max-sm:leading-10">
           Popular Destinations
         </h2>
-        <p className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11">
+        <p className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11 max-md:pb-9 max-sm:pb-6">
           Vacations to make your experience enjoyable in Indonesia!
         </p>
         <div className="flex flex-wrap -mx-3">

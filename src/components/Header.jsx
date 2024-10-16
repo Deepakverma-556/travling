@@ -49,7 +49,7 @@ const Header = () => {
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="ff-poppins font-bold text-5xl leading-2xl text-darkgrey">
+              <h2 className="ff-poppins font-bold text-5xl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-sm:text-4xl">
                 Start your journey by one click, explore beautiful world!
               </h2>
               <p className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8">

@@ -16,9 +16,13 @@ const Section2 = () => {
         </p>
         <div className="flex flex-wrap -mx-3">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3">
-            <div className="p-4 border border-white rounded-2xl bg-grey">
-              <div>
-                <img src={cardimg1} alt="card-img-1"/>
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  src={cardimg1}
+                  alt="card-img-1"
+                  className="flex transition-all duration-300 group-hover/cards:scale-110"
+                />
               </div>
               <div className="pt-4">
                 <div className="flex items-center gap-1">
@@ -48,14 +52,23 @@ const Section2 = () => {
                 <p className="ff-lato text-sm leading-5 text-gray-600">
                   3 Days
                 </p>
-                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">Rp 6.705.000 <span className="font-normal text-text-xsm leading-4 text-blue">/orang</span></p>
+                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">
+                  Rp 6.705.000{" "}
+                  <span className="font-normal text-text-xsm leading-4 text-blue">
+                    /orang
+                  </span>
+                </p>
               </div>
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-sm:pt-5">
-            <div className="p-4 border border-white rounded-2xl bg-grey">
-              <div>
-                <img src={cardimg2} alt="card-img-2"/>
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  src={cardimg2}
+                  alt="card-img-2"
+                  className="flex transition-all duration-300 group-hover/cards:scale-110"
+                />
               </div>
               <div className="pt-4">
                 <div className="flex items-center gap-1">
@@ -85,14 +98,23 @@ const Section2 = () => {
                 <p className="ff-lato text-sm leading-5 text-gray-600">
                   1 Days
                 </p>
-                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">Rp 1.205.000 <span className="font-normal text-text-xsm leading-4 text-blue">/malam</span></p>
+                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">
+                  Rp 1.205.000{" "}
+                  <span className="font-normal text-text-xsm leading-4 text-blue">
+                    /malam
+                  </span>
+                </p>
               </div>
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-md:pt-5">
-            <div className="p-4 border border-white rounded-2xl bg-grey">
-              <div>
-                <img src={cardimg3} alt="card-img-3"/>
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  src={cardimg3}
+                  alt="card-img-3"
+                  className="flex transition-all duration-300 group-hover/cards:scale-110"
+                />
               </div>
               <div className="pt-4">
                 <div className="flex items-center gap-1">
@@ -119,14 +141,23 @@ const Section2 = () => {
                 <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
                   Paket Tiket pesawat Jakarta Bali
                 </p>
-                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">Rp 605.000 <span className="font-normal text-text-xsm leading-4 text-blue">/person</span></p>
+                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">
+                  Rp 605.000{" "}
+                  <span className="font-normal text-text-xsm leading-4 text-blue">
+                    /person
+                  </span>
+                </p>
               </div>
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-lg:pt-5">
-            <div className="p-4 border border-white rounded-2xl bg-grey">
-              <div>
-                <img src={cardimg4} alt="card-img-4"/>
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  src={cardimg4}
+                  alt="card-img-4"
+                  className="flex transition-all duration-300 group-hover/cards:scale-110"
+                />
               </div>
               <div className="pt-4">
                 <div className="flex items-center gap-1">
@@ -156,7 +187,12 @@ const Section2 = () => {
                 <p className="ff-lato text-sm leading-5 text-gray-600">
                   14 Days
                 </p>
-                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">Rp 1.400.000 <span className="font-normal text-text-xsm leading-4 text-blue">/person</span></p>
+                <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">
+                  Rp 1.400.000{" "}
+                  <span className="font-normal text-text-xsm leading-4 text-blue">
+                    /person
+                  </span>
+                </p>
               </div>
             </div>
           </div>

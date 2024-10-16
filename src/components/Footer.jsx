@@ -96,7 +96,7 @@ export const Footer = () => {
         <div className="w-full border border-white"></div>
         <div className="flex items-center justify-between flex-wrap pt-5">
           <p className="ff-lato text-base leading-6 text-white">
-            © 2022 Travling.com
+            © 2024 Travling.com
           </p>
           <div className="flex items-center gap-4">
             <a

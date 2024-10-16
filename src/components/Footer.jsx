@@ -76,7 +76,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="max-md:w-full max-md:text-center max-md:pt-4">
-            <p className="ff-lato font-bold text-xl leading-7 text-white pb-2">
+            <p className="ff-lato font-bold text-xl leading-7 text-white pb-4">
               Get the App
             </p>
             <div className="flex items-center gap-3 max-md:justify-center">

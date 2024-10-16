@@ -14,7 +14,7 @@ const Header = () => {
           >
             Travling!
           </a>
-          <ul className="flex items-center gap-20">
+          <ul className="flex items-center gap-20 max-md:gap-14 max-sm:gap-8">
             <li>
               <a
                 href="#"

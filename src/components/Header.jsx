@@ -44,10 +44,53 @@ const Header = () => {
           <button className="relative bg-orange max-md:hidden text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all overflow-hidden duration-200 before:top-0 before:left-0 before:bottom-0 before:right-0 before:m-auto before:w-0 before:bg-black before:h-0 before:absolute before:ease-out before:duration-300 hover:before:w-full hover:before:h-full ">
             <span className="relative z-10">Sign Up</span>
           </button>
-          <div className="md:hidden text-2xl font-bold" onClick={() => setOpen(!open)}>
+          <div
+            className="md:hidden fixed right-3 text-black z-20 text-3xl font-bold"
+            onClick={() => setOpen(!open)}
+          >
             {open ? "✕" : "☰"}
           </div>
         </div>
+      </div>
+      <div
+        onClick={() => setOpen(false)}
+        className={`w-full h-full bg-primary transition-all duration-300 md:-top-full z-10 fixed flex justify-center items-center ${
+          open
+            ? "top-0 transition-all duration-300"
+            : "-top-full transition-all duration-300"
+        }`}
+      >
+        <ul className="flex flex-col justify-center items-center gap-8">
+          <li>
+            <a 
+              href="#"
+              className="ff-lato text-xl font-bold leading-6 text-white flex transition-all duration-200 hover:scale-105"
+            >
+              Product
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="ff-lato text-xl font-bold leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
+            >
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="ff-lato text-xl font-bold leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
+            >
+              About Us
+            </a>
+          </li>
+          <li>
+            <button className="relative bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all overflow-hidden duration-200 before:top-0 before:left-0 before:bottom-0 before:right-0 before:m-auto before:w-0 before:bg-black before:h-0 before:absolute before:ease-out before:duration-300 hover:before:w-full hover:before:h-full ">
+              <span className="relative z-10">Sign Up</span>
+            </button>
+          </li>
+        </ul>
       </div>
       <div className="container max-w-6xl mx-auto px-3 py-5">
         <div className="flex flex-wrap -mx-3 items-center">

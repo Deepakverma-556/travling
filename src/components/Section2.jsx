@@ -16,7 +16,7 @@ const Section2 = () => {
         </p>
         <div className="flex flex-wrap -mx-3">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg1}
@@ -62,7 +62,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-sm:pt-5">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg2}
@@ -108,7 +108,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-md:pt-5">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg3}
@@ -151,7 +151,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-lg:pt-5">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey transition-all duration-300 group/cards hover:scale-105">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg4}

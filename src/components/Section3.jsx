@@ -20,7 +20,7 @@ const Section3 = () => {
                 Enjoy different experiences in every place you visit and
                 discover new and affordable adventures of course.
               </p>
-              <div className="flex items-center gap-4 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]">
+              <div className="flex items-center gap-7 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]">
                 <div>
                   <svg
                     width="34"
@@ -89,7 +89,7 @@ const Section3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F] max-sm:my-3 my-6">
+              <div className="flex items-center gap-7 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F] max-sm:my-3 my-6">
                 <div>
                   <svg
                     width="40"
@@ -203,7 +203,7 @@ const Section3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-4 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]">
+              <div className="flex items-center gap-7 px-6 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]">
                 <div>
                   <svg
                     width="36"

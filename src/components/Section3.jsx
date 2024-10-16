@@ -265,7 +265,7 @@ const Section3 = () => {
               </div>
               <a
                 href="#"
-                className="flex items-center ff-lato font-bold text-xl leading-7 text-gray-900 gap-2 max-w-max transition-all duration-200 hover:scale-105 mt-6"
+                className="flex items-center ff-lato relative group font-bold text-xl leading-7 text-gray-900 gap-2 max-w-max mt-6"
               >
                 Another Product
                 <svg
@@ -283,6 +283,7 @@ const Section3 = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
+                <div className="bg-darkgrey h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
               </a>
             </div>
           </div>

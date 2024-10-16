@@ -40,33 +40,37 @@ export const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="ff-lato text-sm leading-6 text-white flex transition-all duration-200 hover:scale-105"
+                  className="ff-lato text-sm leading-6 text-white flex relative group"
                 >
                   Product
+                  <div className="bg-white h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="ff-lato text-sm leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
+                  className="ff-lato text-sm leading-6 text-white text-nowrap flex relative group"
                 >
                   Contact Us
+                  <div className="bg-white h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="ff-lato text-sm leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
+                  className="ff-lato text-sm leading-6 text-white text-nowrap flex relative group"
                 >
                   Privacy Policy
+                  <div className="bg-white h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="ff-lato text-sm leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
+                  className="ff-lato text-sm leading-6 text-white text-nowrap flex relative group"
                 >
                   About Us
+                  <div className="bg-white h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
                 </a>
               </li>
             </ul>

@@ -19,25 +19,28 @@ const Header = () => {
             <li>
               <a
                 href="#"
-                className="ff-lato text-base leading-6 text-darkgrey flex transition-all duration-200 hover:scale-105"
+                className="ff-lato text-base relative group leading-6 text-darkgrey flex"
               >
                 Product
+                <div className="bg-darkgrey h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="ff-lato text-base leading-6 text-darkgrey text-nowrap flex transition-all duration-200 hover:scale-105"
+                className="ff-lato text-base relative group leading-6 text-darkgrey text-nowrap flex"
               >
                 Contact Us
+                <div className="bg-darkgrey h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
               </a>
             </li>
             <li>
               <a
                 href="#"
-                className="ff-lato text-base leading-6 text-darkgrey text-nowrap flex transition-all duration-200 hover:scale-105"
+                className="ff-lato text-base relative group leading-6 text-darkgrey text-nowrap flex"
               >
                 About Us
+                <div className="bg-darkgrey h-[0.5px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
               </a>
             </li>
           </ul>
@@ -62,7 +65,7 @@ const Header = () => {
       >
         <ul className="flex flex-col justify-center items-center gap-8">
           <li>
-            <a 
+            <a
               href="#"
               className="ff-lato text-xl font-bold leading-6 text-white flex transition-all duration-200 hover:scale-105"
             >

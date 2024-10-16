@@ -58,7 +58,7 @@ const Header = () => {
               </p>
               <div className="flex items-center gap-6">
                 <img src={googleimg} alt="google-play" className="max-w-sm" />
-                <img src={appimg} alt="app-store" className="max-w-sm" />
+                <img src={appimg} alt="app-store" className="max-w-sm w-full h-10" />
               </div>
             </div>
           </div>

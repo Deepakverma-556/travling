@@ -76,7 +76,11 @@ export const Footer = () => {
                 <img src={google} alt="google-play" className="max-w-sm" />
               </a>
               <a href="#">
-                <img src={app} alt="app-store" className="max-w-sm" />
+                <img
+                  src={app}
+                  alt="app-store"
+                  className="max-w-sm w-full h-10"
+                />
               </a>
             </div>
           </div>
@@ -88,7 +92,8 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-4">
             <a
-              href="https://www.instagram.com/accounts/login/?hl=en" target="blank"
+              href="https://www.instagram.com/accounts/login/?hl=en"
+              target="blank"
               className="w-7 h-7 rounded-full border border-white flex items-center justify-center group/link transition-all duration-200 hover:border-orange "
             >
               <svg
@@ -104,7 +109,8 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://twitter.com/?lang=en" target="blank"
+              href="https://twitter.com/?lang=en"
+              target="blank"
               className="w-7 h-7 rounded-full border border-white flex items-center justify-center group/link transition-all duration-200 hover:border-orange "
             >
               <svg
@@ -120,7 +126,8 @@ export const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/" target="blank"
+              href="https://www.facebook.com/"
+              target="blank"
               className="w-7 h-7 rounded-full border text-white font-bold text-xl border-white flex items-center justify-center transition-all duration-200 hover:text-orange hover:border-orange "
             >
               f

@@ -107,11 +107,11 @@ const Header = () => {
                 destination information and inspiration from us!
               </p>
               <div className="flex items-center gap-6">
-                <img src={googleimg} alt="google-play" className="max-w-sm" />
+                <img src={googleimg} alt="google-play" className="max-w-sm cursor-pointer" />
                 <img
                   src={appimg}
                   alt="app-store"
-                  className="max-w-sm w-full h-10"
+                  className="max-w-sm w-full h-10 cursor-pointer"
                 />
               </div>
             </div>

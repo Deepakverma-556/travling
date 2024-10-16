@@ -48,7 +48,7 @@ const Header = () => {
             <span className="relative z-10">Sign Up</span>
           </button>
           <div
-            className="md:hidden fixed right-3 text-black z-20 text-3xl font-bold"
+            className="md:hidden fixed right-3 text-black z-20 text-4xl font-bold"
             onClick={() => setOpen(!open)}
           >
             {open ? "✕" : "☰"}

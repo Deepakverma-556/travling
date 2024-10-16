@@ -6,7 +6,7 @@ import hero from "../assets/images/hero-img.webp";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 flex-col">
+    <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 flex-col bg-gradient-to-b from-[#cbeaf2] to-white bg-opacity-80">
       <div className="max-w-6xl mx-auto px-3 pb-5 w-full">
         <div className="w-full flex items-center justify-between">
           <a
@@ -107,7 +107,11 @@ const Header = () => {
                 destination information and inspiration from us!
               </p>
               <div className="flex items-center gap-6">
-                <img src={googleimg} alt="google-play" className="max-w-sm cursor-pointer" />
+                <img
+                  src={googleimg}
+                  alt="google-play"
+                  className="max-w-sm cursor-pointer"
+                />
                 <img
                   src={appimg}
                   alt="app-store"

@@ -75,8 +75,8 @@ export const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="max-md:w-full max-md:text-center max-md:pt-4">
-            <p className="ff-lato font-bold text-xl leading-7 text-white pb-4">
+          <div className="max-md:w-full max-md:text-center max-md:pt-4 max-sm:pt-2">
+            <p className="ff-lato font-bold text-xl leading-7 text-white pb-4 max-md:pb-3 max-sm:pb-2">
               Get the App
             </p>
             <div className="flex items-center gap-3 max-md:justify-center">

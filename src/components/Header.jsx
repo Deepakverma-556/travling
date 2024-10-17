@@ -11,7 +11,7 @@ const Header = () => {
         <div className="w-full flex items-center justify-between">
           <a
             href="#"
-            className="font-bold text-4xl max-sm:text-3xl leading-xl text-primary ff-roboto"
+            className="font-bold text-4xl max-md:text-3xl max-sm:text-2xl leading-xl text-primary ff-roboto"
           >
             Travling!
           </a>
@@ -48,7 +48,7 @@ const Header = () => {
             <span className="relative z-10">Sign Up</span>
           </button>
           <div
-            className="md:hidden fixed right-3 text-black z-20 text-4xl font-bold"
+            className="md:hidden fixed right-3 text-black z-20 text-4xl max-sm:text-3xl font-bold"
             onClick={() => setOpen(!open)}
           >
             {open ? "✕" : "☰"}
@@ -98,14 +98,14 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="container max-w-6xl mx-auto px-3 pt-5 pb-8 max-lg:pb-0">
+      <div className="container max-w-6xl mx-auto px-3 pt-5 max-md:pt-3 max-sm:pt-1 pb-8 max-lg:pb-0">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
               <h2 className="ff-poppins font-bold text-5xl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-md:text-4xl max-sm:text-3xl ">
                 Start your journey by one click, explore beautiful world!
               </h2>
-              <p className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8">
+              <p className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8 max-md:pt-3 max-sm:pt-2 max-md:pb-7 max-sm:pb-6">
                 Plan and book your perfect trip with expert advice, travel tips,
                 destination information and inspiration from us!
               </p>

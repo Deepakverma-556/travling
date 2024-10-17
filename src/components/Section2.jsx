@@ -11,7 +11,7 @@ const Section2 = () => {
         <h2 className="ff-lato text-4xl max-md:text-3xl max-sm:text-2xl leading-xl font-bold text-darkgrey max-sm:leading-10">
           Popular Destinations
         </h2>
-        <p className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11 max-md:pb-9 max-sm:pb-6">
+        <p className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11 max-md:pt-1 max-sm:pt-0 max-lg:pb-9 max-md:pb-6 max-sm:pb-3">
           Vacations to make your experience enjoyable in Indonesia!
         </p>
         <div className="flex flex-wrap -mx-3">

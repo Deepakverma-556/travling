@@ -8,7 +8,7 @@ const Section2 = () => {
   return (
     <section className="flex items-center py-24 max-lg:py-10 max-md:py-8 max-sm:py-0 overflow-hidden">
       <div className="max-w-6xl mx-auto px-3 w-full">
-        <h2 className="ff-lato text-4xl max-sm:text-3xl leading-xl font-bold text-darkgrey max-sm:leading-10">
+        <h2 className="ff-lato text-4xl max-md:text-3xl max-sm:text-2xl leading-xl font-bold text-darkgrey max-sm:leading-10">
           Popular Destinations
         </h2>
         <p className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11 max-md:pb-9 max-sm:pb-6">
@@ -16,7 +16,7 @@ const Section2 = () => {
         </p>
         <div className="flex flex-wrap -mx-3">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105 max-sm:hover:scale-[101]">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg1}
@@ -47,7 +47,7 @@ const Section2 = () => {
                   </p>
                 </div>
                 <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
-                  Flores Road Trip 3D2N
+                  Flores Road Trip 3D2N ...................
                 </p>
                 <p className="ff-lato text-sm leading-5 text-gray-600">
                   3 Days
@@ -62,7 +62,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-sm:pt-5">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105 max-sm:hover:scale-[101]">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg2}
@@ -93,7 +93,7 @@ const Section2 = () => {
                   </p>
                 </div>
                 <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
-                  Forrester Glamping Co Bogor
+                  Forrester Glamping Co Bogor .......
                 </p>
                 <p className="ff-lato text-sm leading-5 text-gray-600">
                   1 Days
@@ -108,7 +108,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-md:pt-5">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105 max-sm:hover:scale-[101]">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg3}
@@ -139,7 +139,10 @@ const Section2 = () => {
                   </p>
                 </div>
                 <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
-                  Paket Tiket pesawat Jakarta Bali
+                  Paket Tiket pesawat Jakarta Bali .
+                </p>
+                <p className="ff-lato text-sm leading-5 text-gray-600">
+                  3 Days
                 </p>
                 <p className="ff-lato font-bold text-sm leading-5 text-primary pt-4">
                   Rp 605.000{" "}
@@ -151,7 +154,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-lg:pt-5">
-            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 transition-all duration-300 group/cards hover:scale-105 max-sm:hover:scale-[101]">
+            <div className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg4}
@@ -182,7 +185,7 @@ const Section2 = () => {
                   </p>
                 </div>
                 <p className="ff-lato font-bold text-base leading-6 text-darkgrey pt-2 pb-1">
-                  Desa Wisata Kandri
+                  Desa Wisata Kandri ........................
                 </p>
                 <p className="ff-lato text-sm leading-5 text-gray-600">
                   14 Days

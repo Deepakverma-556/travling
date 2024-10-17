@@ -4,14 +4,14 @@ import app from "../assets/images/app-store.webp";
 
 export const Footer = () => {
   return (
-    <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12 max-md:pb-9 max-sm:pb-6 rounded-t-3xl overflow-hidden">
+    <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12 max-lg:pb-8 max-md:pb-6 rounded-t-3xl overflow-hidden">
       <div className="container max-w-6xl px-3 mx-auto w-full">
         <div className="p-12 max-lg:p-10 max-md:p-8 max-sm:p-6 w-full flex flex-wrap justify-between items-center filter bg-[#60b6cf] backdrop-blur-sm border border-white rounded-xl">
           <div className="max-md:w-full max-md:text-center">
-            <p className="ff-lato text-xl leading-7 text-white">
+            <p className="ff-lato text-xl max-sm:text-base max-sm:leading-5 leading-7 text-white">
               Prepare yourself to be a part of exploration of
             </p>
-            <h2 className="ff-lato text-4xl max-sm:text-3xl leading-xl max-sm:leading-9 font-bold text-white">
+            <h2 className="ff-lato text-4xl max-md:text-3xl max-sm:text-[22px] leading-xl max-sm:leading-9 font-bold text-white">
               The Beauty of Indonesia
             </h2>
           </div>
@@ -32,7 +32,7 @@ export const Footer = () => {
           <div className="max-md:w-full max-md:text-center">
             <a
               href="#"
-              className="font-bold text-4xl leading-xl text-white ff-roboto"
+              className="font-bold text-4xl max-md:text-3xl max-sm:text-2xl leading-xl text-white ff-roboto"
             >
               Travling!
             </a>
@@ -93,7 +93,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full border border-white"></div>
+        <div className="w-full border-t-[1px] border-white"></div>
         <div className="flex items-center justify-between flex-wrap pt-5">
           <p className="ff-lato text-base leading-6 text-white">
             © 2024 Travling.com

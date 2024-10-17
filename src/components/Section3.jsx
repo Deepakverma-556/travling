@@ -17,10 +17,10 @@ const Section3 = () => {
           </div>
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="ff-lato text-4xl max-sm:text-3xl leading-xl font-bold text-darkgrey">
+              <h2 className="ff-lato text-4xl max-md:text-3xl max-sm:text-2xl leading-xl font-bold text-darkgrey">
                 Why Choose Us
               </h2>
-              <p className="ff-lato text-xl leading-7 text-gray-900 pt-2 pb-10 max-md:pb-6 max-sm:pb-2">
+              <p className="ff-lato text-xl max-md:text-lg max-sm:text-base leading-7 text-gray-900 pt-2 pb-10 max-md:pb-6 max-sm:pb-2">
                 Enjoy different experiences in every place you visit and
                 discover new and affordable adventures of course.
               </p>
@@ -269,7 +269,7 @@ const Section3 = () => {
               </div>
               <a
                 href="#"
-                className="flex items-center ff-lato relative group font-bold text-xl leading-7 text-gray-900 gap-2 max-w-max mt-6"
+                className="flex items-center ff-lato font-bold text-xl leading-7 text-gray-900 gap-2 max-w-max mt-6 max-md:mt-4 max-sm:mt-2 group transition-all duration-300 hover:text-primary"
               >
                 Another Product
                 <svg
@@ -280,6 +280,7 @@ const Section3 = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                    className="transition-all duration-300 group-hover:stroke-primary"
                     d="M1 13L7 7L1 1"
                     stroke="black"
                     strokeWidth="2"
@@ -287,7 +288,6 @@ const Section3 = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-                <div className="bg-darkgrey h-[1px] absolute bottom-0 left-1/2 right-1/2 group-hover:left-0 group-hover:right-0 origin-center transition-all duration-300"></div>
               </a>
             </div>
           </div>

@@ -20,7 +20,6 @@ module.exports = {
         grey:'#f0f0f0'
       },
       lineHeight: {
-        'xl':'50px',
         '2xl':'69px',
       },
       maxWidth: {

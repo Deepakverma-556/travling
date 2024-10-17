@@ -11,7 +11,7 @@ const Header = () => {
         <div className="w-full flex items-center justify-between">
           <a
             href="#"
-            className="font-bold text-4xl leading-xl text-primary ff-roboto"
+            className="font-bold text-4xl max-sm:text-3xl leading-xl text-primary ff-roboto"
           >
             Travling!
           </a>
@@ -57,14 +57,13 @@ const Header = () => {
       </div>
       <div
         className={`w-full h-full bg-primary transition-all duration-500 md:-top-full z-10 fixed flex justify-center items-center ${
-          open
-            ? "top-0"
-            : "-top-full"
+          open ? "top-0" : "-top-full"
         }`}
       >
         <ul className="flex flex-col justify-center items-center gap-8">
           <li>
             <a
+              onClick={() => setOpen(false)}
               href="#"
               className="ff-lato text-xl font-bold leading-6 text-white flex transition-all duration-200 hover:scale-105"
             >
@@ -73,6 +72,7 @@ const Header = () => {
           </li>
           <li>
             <a
+              onClick={() => setOpen(false)}
               href="#"
               className="ff-lato text-xl font-bold leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
             >
@@ -81,6 +81,7 @@ const Header = () => {
           </li>
           <li>
             <a
+              onClick={() => setOpen(false)}
               href="#"
               className="ff-lato text-xl font-bold leading-6 text-white text-nowrap flex transition-all duration-200 hover:scale-105"
             >
@@ -88,7 +89,10 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <button className="relative bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all overflow-hidden duration-200 before:top-0 before:left-0 before:bottom-0 before:right-0 before:m-auto before:w-0 before:bg-black before:h-0 before:absolute before:ease-out before:duration-300 hover:before:w-full hover:before:h-full ">
+            <button
+              onClick={() => setOpen(false)}
+              className="relative bg-orange text-nowrap ff-lato font-bold text-base leading-6 py-3 px-8 rounded-lg text-white transition-all overflow-hidden duration-200 before:top-0 before:left-0 before:bottom-0 before:right-0 before:m-auto before:w-0 before:bg-black before:h-0 before:absolute before:ease-out before:duration-300 hover:before:w-full hover:before:h-full "
+            >
               <span className="relative z-10">Sign Up</span>
             </button>
           </li>
@@ -98,7 +102,7 @@ const Header = () => {
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="ff-poppins font-bold text-text-xxl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-md:text-5xl max-sm:text-3xl ">
+              <h2 className="ff-poppins font-bold text-5xl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-md:text-4xl max-sm:text-3xl ">
                 Start your journey by one click, explore beautiful world!
               </h2>
               <p className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8">
@@ -121,7 +125,11 @@ const Header = () => {
           </div>
           <div className="w-full lg:w-1/2 px-3 max-lg:pt-6">
             <div>
-              <img src={hero} alt="hero-img" className="max-w-xl w-full mx-auto"/>
+              <img
+                src={hero}
+                alt="hero-img"
+                className="max-w-xl w-full mx-auto"
+              />
             </div>
           </div>
         </div>

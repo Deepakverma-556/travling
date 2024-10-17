@@ -50,7 +50,6 @@ export const Footer = () => {
                 <a
                   href="#"
                   onClick={handleClick}
-                  onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;"
                   className="ff-lato text-sm leading-6 text-white flex relative group"
                 >
                   Product

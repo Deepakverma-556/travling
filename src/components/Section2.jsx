@@ -6,7 +6,7 @@ import cardimg4 from "../assets/images/card-img-4.webp";
 
 const Section2 = () => {
   return (
-    <section className="flex items-center py-24 max-lg:py-10 max-md:py-8 max-sm:py-0 overflow-hidden">
+    <section className="flex items-center overflow-hidden">
       <div className="max-w-6xl mx-auto px-3 w-full">
         <h2 className="ff-lato text-4xl max-md:text-3xl max-sm:text-2xl leading-xl font-bold text-darkgrey max-sm:leading-10">
           Popular Destinations

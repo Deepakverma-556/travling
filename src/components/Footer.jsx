@@ -4,14 +4,14 @@ import app from "../assets/images/app-store.webp";
 
 export const Footer = () => {
   return (
-    <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12">
+    <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12 max-md:pb-9 max-sm:pb-6 rounded-t-3xl overflow-hidden">
       <div className="container max-w-6xl px-3 mx-auto w-full">
         <div className="p-12 max-lg:p-10 max-md:p-8 max-sm:p-6 w-full flex flex-wrap justify-between items-center filter bg-[#60b6cf] backdrop-blur-sm border border-white rounded-xl">
           <div className="max-md:w-full max-md:text-center">
             <p className="ff-lato text-xl leading-7 text-white">
               Prepare yourself to be a part of exploration of
             </p>
-            <h2 className="ff-lato text-4xl leading-xl max-sm:leading-9 font-bold text-white">
+            <h2 className="ff-lato text-4xl max-sm:text-3xl leading-xl max-sm:leading-9 font-bold text-white">
               The Beauty of Indonesia
             </h2>
           </div>

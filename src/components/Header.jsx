@@ -6,7 +6,7 @@ import hero from "../assets/images/hero-img.webp";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 max-md:pb-5 max-sm:pb-12 flex-col bg-gradient-to-b from-[#E2F6FC] to-white">
+    <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 max-md:pb-5 max-sm:pb-12 flex-col bg-gradient-to-b from-[#E2F6FC] to-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-3 pb-5 w-full">
         <div className="w-full flex items-center justify-between">
           <a
@@ -94,11 +94,11 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="container max-w-6xl mx-auto px-3 pt-5">
+      <div className="container max-w-6xl mx-auto px-3 pt-5 pb-8 max-lg:pb-0">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="ff-poppins font-bold text-text-xxl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-md:text-5xl max-sm:text-4xl">
+              <h2 className="ff-poppins font-bold text-text-xxl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-md:text-5xl max-sm:text-3xl ">
                 Start your journey by one click, explore beautiful world!
               </h2>
               <p className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8">

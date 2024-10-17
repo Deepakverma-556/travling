@@ -7,7 +7,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 pb-24 max-lg:pb-20 max-md:pb-16 max-sm:pb-12 flex-col bg-gradient-to-b from-[#E2F6FC] to-white overflow-hidden">
-      <div className="max-w-6xl mx-auto px-3 pb-5 w-full">
+      <div className="max-w-6xl mx-auto px-4 pb-5 w-full">
         <div className="w-full flex items-center justify-between">
           <a
             href="#"
@@ -48,7 +48,7 @@ const Header = () => {
             <span className="relative z-10">Sign Up</span>
           </button>
           <div
-            className="md:hidden fixed right-3 text-black z-20 text-4xl max-sm:text-3xl font-bold"
+            className="md:hidden text-black z-20 text-4xl max-sm:text-3xl font-bold"
             onClick={() => setOpen(!open)}
           >
             {open ? "✕" : "☰"}
@@ -98,7 +98,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="container max-w-6xl mx-auto px-3 pt-5 max-md:pt-3 max-sm:pt-1">
+      <div className="container max-w-6xl mx-auto px-4 pt-5 max-md:pt-3 max-sm:pt-1">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>
@@ -110,16 +110,19 @@ const Header = () => {
                 destination information and inspiration from us!
               </p>
               <div className="flex items-center gap-6">
-                <img
-                  src={googleimg}
-                  alt="google-play"
-                  className="max-w-sm cursor-pointer"
-                />
-                <img
-                  src={appimg}
-                  alt="app-store"
-                  className="max-w-sm w-full h-10 cursor-pointer"
-                />
+                <a target="blank" href="https://play.google.com/store/games?hl=en">
+                  <img src={googleimg} alt="google-play" className="max-w-sm" />
+                </a>
+                <a target="blank"
+                  href="https://www.apple.com/in/app-store/"
+                  className="max-w-sm w-full"
+                >
+                  <img
+                    src={appimg}
+                    alt="app-store"
+                    className="max-w-sm w-full h-10"
+                  />
+                </a>
               </div>
             </div>
           </div>

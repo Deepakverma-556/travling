@@ -14,7 +14,7 @@ export const Footer = () => {
   
   return (
     <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12 max-lg:pb-8 max-md:pb-6 rounded-t-3xl overflow-hidden">
-      <div className="container max-w-6xl px-3 mx-auto w-full">
+      <div className="container max-w-6xl px-4 mx-auto w-full">
         <div className="p-12 max-lg:p-10 max-md:p-8 max-sm:p-6 w-full flex flex-wrap justify-between items-center filter bg-[#60b6cf] backdrop-blur-sm border border-white rounded-xl">
           <div className="max-md:w-full max-md:text-center">
             <p className="ff-lato text-xl max-sm:text-base max-sm:leading-5 leading-7 text-white">
@@ -48,7 +48,7 @@ export const Footer = () => {
             <ul className="flex items-center gap-10 max-md:gap-6 max-sm:gap-3 pt-3 max-md:pt-0 max-md:justify-center">
               <li>
                 <a
-                  href="#"
+                  href="#top"
                   onClick={handleClick}
                   className="ff-lato text-sm leading-6 text-white flex relative group"
                 >
@@ -58,7 +58,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#top"
                   onClick={handleClick}
                   className="ff-lato text-sm leading-6 text-white text-nowrap flex relative group"
                 >
@@ -68,7 +68,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#top"
                   onClick={handleClick}
                   className="ff-lato text-sm leading-6 text-white text-nowrap flex relative group"
                 >
@@ -78,7 +78,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#top"
                   onClick={handleClick}
                   className="ff-lato text-sm leading-6 text-white text-nowrap flex relative group"
                 >
@@ -93,10 +93,17 @@ export const Footer = () => {
               Get the App
             </p>
             <div className="flex items-center gap-3 max-md:justify-center">
-              <a href="#">
+              <a
+                target="blank"
+                href="https://play.google.com/store/games?hl=en"
+              >
                 <img src={google} alt="google-play" className="max-w-sm" />
               </a>
-              <a href="#" className="w-full max-w-sm">
+              <a
+                target="blank"
+                href="https://www.apple.com/in/app-store/"
+                className="w-full max-w-sm"
+              >
                 <img
                   src={app}
                   alt="app-store"

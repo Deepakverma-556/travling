@@ -4,7 +4,7 @@ import hero from "../assets/images/sec-3-hero.webp";
 const Section3 = () => {
   return (
     <section className="flex items-center py-24 max-lg:py-20 max-md:py-16 max-sm:py-12 overflow-hidden">
-      <div className="container px-3 max-w-6xl mx-auto w-full">
+      <div className="container px-4 max-w-6xl mx-auto w-full">
         <div className="flex flex-wrap -mx-3 items-center">
           <div className="w-full lg:w-1/2 px-3">
             <div>

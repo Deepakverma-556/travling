@@ -17,7 +17,7 @@ const Section3 = () => {
           </div>
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="ff-lato text-4xl leading-xl font-bold text-darkgrey">
+              <h2 className="ff-lato text-4xl max-sm:text-3xl leading-xl font-bold text-darkgrey">
                 Why Choose Us
               </h2>
               <p className="ff-lato text-xl leading-7 text-gray-900 pt-2 pb-10 max-md:pb-6 max-sm:pb-2">

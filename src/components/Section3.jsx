@@ -1,12 +1,19 @@
-import React from "react";
+import React,{useEffect} from "react";
 import hero from "../assets/images/sec-3-hero.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Section3 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <section className="flex items-center py-24 max-lg:py-20 max-md:py-16 max-sm:py-12 overflow-hidden">
       <div className="container px-4 max-w-6xl mx-auto w-full">
         <div className="flex flex-wrap -mx-3 items-center">
-          <div className="w-full lg:w-1/2 px-3">
+          <div data-aos="fade-right" className="w-full lg:w-1/2 px-3">
             <div>
               <img
                 src={hero}
@@ -15,7 +22,7 @@ const Section3 = () => {
               />
             </div>
           </div>
-          <div className="w-full lg:w-1/2 px-3">
+          <div data-aos="fade-left" className="w-full lg:w-1/2 px-3">
             <div>
               <h2 className="ff-lato text-4xl max-md:text-3xl max-sm:text-2xl leading-xl font-bold text-darkgrey">
                 Why Choose Us
@@ -24,7 +31,10 @@ const Section3 = () => {
                 Enjoy different experiences in every place you visit and
                 discover new and affordable adventures of course.
               </p>
-              <div className="flex items-center gap-7 px-6 max-sm:px-3 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]">
+              <div
+                data-aos="zoom-in"
+                className="flex items-center gap-7 px-6 max-sm:px-3 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]"
+              >
                 <div>
                   <svg
                     width="34"
@@ -93,7 +103,10 @@ const Section3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-7 px-6 max-sm:px-3 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F] max-sm:my-3 my-6">
+              <div
+                data-aos="zoom-in"
+                className="flex items-center gap-7 px-6 max-sm:px-3 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F] max-sm:my-3 my-6"
+              >
                 <div>
                   <svg
                     width="40"
@@ -207,7 +220,10 @@ const Section3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-7 px-6 max-sm:px-3 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]">
+              <div
+                data-aos="zoom-in"
+                className="flex items-center gap-7 px-6 max-sm:px-3 py-4 rounded-xl transition-all duration-200 hover:shadow-[0px_16px_24px_0px] hover:shadow-[#6061701F]"
+              >
                 <div>
                   <svg
                     width="36"

@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import google from "../assets/images/google-play.webp";
 import app from "../assets/images/app-store.webp";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   const handleClick = (e) => {
     e.preventDefault();
     window.scrollTo({
@@ -15,7 +23,10 @@ export const Footer = () => {
   return (
     <footer className="flex items-center bg-primary pt-24 max-md:pt-16 max-sm:pt-12 pb-12 max-lg:pb-8 max-md:pb-6 rounded-t-3xl overflow-hidden">
       <div className="container max-w-6xl px-4 mx-auto w-full">
-        <div className="p-12 max-lg:p-10 max-md:p-8 max-sm:p-6 w-full flex flex-wrap justify-between items-center filter bg-[#60b6cf] backdrop-blur-sm border border-white rounded-xl">
+        <div
+          data-aos="zoom-out-up"
+          className="p-12 max-lg:p-10 max-md:p-8 max-sm:p-6 w-full flex flex-wrap justify-between items-center filter bg-[#60b6cf] backdrop-blur-sm border border-white rounded-xl"
+        >
           <div className="max-md:w-full max-md:text-center">
             <p className="ff-lato text-xl max-sm:text-base max-sm:leading-5 leading-7 text-white">
               Prepare yourself to be a part of exploration of
@@ -40,12 +51,16 @@ export const Footer = () => {
         <div className="flex items-center justify-between w-full flex-wrap pt-24 max-lg:pt-16 max-md:pt-10 max-sm:pt-6 pb-5">
           <div className="max-md:w-full max-md:text-center">
             <a
+              data-aos="zoom-in"
               href="#"
               className="font-bold text-4xl max-md:text-3xl max-sm:text-2xl leading-xl text-white ff-roboto"
             >
               Travling!
             </a>
-            <ul className="flex items-center gap-10 max-md:gap-6 max-sm:gap-3 pt-3 max-md:pt-0 max-md:justify-center">
+            <ul
+              data-aos="zoom-out"
+              className="flex items-center gap-10 max-md:gap-6 max-sm:gap-3 pt-3 max-md:pt-0 max-md:justify-center"
+            >
               <li>
                 <a
                   href="#top"
@@ -89,10 +104,16 @@ export const Footer = () => {
             </ul>
           </div>
           <div className="max-md:w-full max-md:text-center max-md:pt-4 max-sm:pt-2">
-            <p className="ff-lato font-bold text-xl leading-7 text-white pb-4 max-md:pb-3 max-sm:pb-2">
+            <p
+              data-aos="fade-left"
+              className="ff-lato font-bold text-xl leading-7 text-white pb-4 max-md:pb-3 max-sm:pb-2"
+            >
               Get the App
             </p>
-            <div className="flex items-center gap-3 max-md:justify-center">
+            <div
+              data-aos="fade-left"
+              className="flex items-center gap-3 max-md:justify-center"
+            >
               <a
                 target="blank"
                 href="https://play.google.com/store/games?hl=en"

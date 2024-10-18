@@ -1,10 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import googleimg from "../assets/images/google-play.webp";
 import appimg from "../assets/images/app-store.webp";
 import hero from "../assets/images/hero-img.webp";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    const handleOverflow = () => {
+      if (open && window.innerWidth < 1024) {
+        document.body.classList.add("overflow-hidden");
+      } else {
+        document.body.classList.remove("overflow-hidden");
+      }
+    };
+    handleOverflow();
+    window.addEventListener("resize", handleOverflow);
+    return () => {
+      window.removeEventListener("resize", handleOverflow);
+    };
+  }, [open]);
   return (
     <section className="flex items-center pt-10 max-md:pt-6 max-sm:pt-3 pb-24 max-lg:pb-20 max-md:pb-16 max-sm:pb-12 flex-col bg-gradient-to-b from-[#E2F6FC] to-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 pb-5 w-full">

@@ -126,20 +126,20 @@ const Header = () => {
             <div className="w-full lg:w-1/2 px-3">
               <div>
                 <h2
-                  
+                  data-aos="fade-right"
                   className="ff-poppins font-bold text-5xl leading-2xl text-darkgrey max-lg:leading-tight max-sm:leading-10 max-md:text-4xl max-sm:text-3xl "
                 >
                   Start your journey by one click, explore beautiful world!
                 </h2>
                 <p
-                  
+                  data-aos="fade-right" data-aos-delay="200"
                   className="ff-poppins text-base leading-7 text-darkgrey text-opacity-80 pt-4 pb-8 max-md:pt-3 max-sm:pt-2 max-md:pb-7 max-sm:pb-6"
                 >
                   Plan and book your perfect trip with expert advice, travel
                   tips, destination information and inspiration from us!
                 </p>
                 <div
-                  
+                  data-aos="fade-right" data-aos-delay="400"
                   className="flex items-center gap-6 max-w-max"
                 >
                   <a
@@ -167,7 +167,7 @@ const Header = () => {
               </div>
             </div>
             <div className="w-full lg:w-1/2 px-3 max-lg:pt-6">
-              <div >
+              <div data-aos="fade-left" >
                 <img
                   src={hero}
                   alt="hero-img"

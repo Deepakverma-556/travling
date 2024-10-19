@@ -10,6 +10,7 @@ const Section2 = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
+      once:true,
     });
   }, []);
 
@@ -23,14 +24,14 @@ const Section2 = () => {
           Popular Destinations
         </h2>
         <p
-          data-aos="fade-right"
+          data-aos="fade-right" data-aos-delay="200"
           className="ff-lato text-base leading-6 text-darkgrey opacity-80 pt-2 pb-11 max-md:pt-1 max-sm:pt-0 max-lg:pb-9 max-md:pb-6 max-sm:pb-3"
         >
           Vacations to make your experience enjoyable in Indonesia!
         </p>
         <div className="flex flex-wrap -mx-3 justify-center">
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3">
-            <div data-aos="zoom-in" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
+            <div data-aos="fade-up" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg1}
@@ -76,7 +77,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-sm:pt-5">
-            <div data-aos="zoom-in" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
+            <div data-aos="fade-up" data-aos-delay="100" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg2}
@@ -122,7 +123,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-md:pt-5">
-            <div data-aos="zoom-in" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
+            <div data-aos="fade-up" data-aos-delay="200" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg3}
@@ -168,7 +169,7 @@ const Section2 = () => {
             </div>
           </div>
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-3 max-lg:pt-5">
-            <div data-aos="zoom-in" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
+            <div data-aos="fade-up" data-aos-delay="300" className="p-4 border flex flex-col border-white rounded-2xl bg-grey bg-opacity-45 group/cards">
               <div className="overflow-hidden rounded-xl">
                 <img
                   src={cardimg4}

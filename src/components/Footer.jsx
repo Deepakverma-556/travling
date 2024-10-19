@@ -58,7 +58,6 @@ export const Footer = () => {
               Travling!
             </a>
             <ul
-              data-aos="zoom-out"
               className="flex items-center gap-10 max-md:gap-6 max-sm:gap-3 pt-3 max-md:pt-0 max-md:justify-center"
             >
               <li>
@@ -111,7 +110,6 @@ export const Footer = () => {
               Get the App
             </p>
             <div
-              data-aos="fade-left"
               className="flex items-center gap-3 max-md:justify-center"
             >
               <a

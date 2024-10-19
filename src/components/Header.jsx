@@ -139,7 +139,7 @@ const Header = () => {
                   tips, destination information and inspiration from us!
                 </p>
                 <div
-                  data-aos="fade-right" data-aos-delay="400"
+                  data-aos="fade-right" data-aos-delay="300"
                   className="flex items-center gap-6 max-w-max"
                 >
                   <a
